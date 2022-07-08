@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vazir', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: IranYekan;
+    flex-direction: column;
+}
+.container p{
+    z-index: 10;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    direction: rtl;
+}
+.shape{
+    border-radius: 30% 70% 70% 30% / 30% 46% 54% 70% ;
+    width: 380px;
+    height: 380px;
+    background: #F8F4F9;
+    position: absolute;
+    
+}
+.shape1{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    animation-name: change;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0,1.5,1,-0.5);
+}
+.shape2{
+    width: 465px;
+    height: 465px;
+    transform: rotate(90deg);
+    background: #F6AA1C;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 1.5, 1, -0.5)
+}
+.shape3{
+    width: 430px;
+    height: 430px;
+    transform: rotate(270deg);
+    background: #BC3908;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 1.5, 1, -0.5)
+}
+.shape4{
+    width: 500px;
+    height: 500px;
+    transform: rotate(180deg);
+    background: #5BC0BE;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 1.5, 1, -0.5)
+}
+.container span{
+    z-index: 10;
+    margin-top: 5%;
+}
+
+@keyframes change {
+    25% {border-radius: 30% 70% 70% 30% / 30% 46% 54% 70% ; transform: translate(0,0)}
+    50% {border-radius: 30% 70% 23% 77% / 65% 46% 54% 35% ;transform: translate(10px,10px);}
+    75% {border-radius: 78% 22% 53% 47% / 47% 42% 58% 53%  ;transform: translate(-10px,-10px);}
+    100% {border-radius: 30% 70% 70% 30% / 30% 46% 54% 70% ;transform: translate(0,0);}
+}
