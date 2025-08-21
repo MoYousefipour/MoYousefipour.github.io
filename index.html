@@ -1,31 +1,672 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Under Developing...</title>
-    <link rel="preconnect" href="//fdn.fontcdn.ir" />
-    <link rel="preconnect" href="//v1.fontapi.ir" />
-    <link href="https://v1.fontapi.ir/css/Vazir" rel="stylesheet" />
-    <link rel="stylesheet" href="./main.css" />
-  </head>
+<html lang="en">
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Style Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="100">
+            <div class="content-wrapper">
+              <h1 class="hero-title">Creative <span class="typed" data-typed-items="Developer, Reasercher"></span></h1>
+              <p class="lead">I am a master’s student with research interests in computer vision and 3D data processing.
+                Alongside my academic work, I have gained experience in web development, particularly with Django, and I
+                am interested in building practical and educational applications. My background reflects a balance
+                between scientific research and applied technology, and I aim to pursue a PhD while contributing to both
+                academic and professional fields.</p>
+
+              <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-item">
+                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="15"
+                    data-purecounter-duration="2">0</span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="3"
+                    data-purecounter-duration="2">0</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+              </div>
+
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+              </div>
+
+              <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://github.com/MoYousefipour"><i class="bi bi-github"></i></a>
+                <a href="https://t.me/MoYousefiPour"><i class="bi bi-telegram"></i></a>
+                <a href="https://scholar.google.com/citations?user=hFPzHHEAAAAJ&hl=en"><i class="bi bi-google"></i></a>
+                <a href="https://www.linkedin.com/in/mohammad-yousefipour/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="200">
+            <div class="image-container">
+              <div class="floating-elements">
+                <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="300">
+                  <i class="bi bi-search"></i>
+                  <span>Reaserch</span>
+                </div>
+                <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="400">
+                  <i class="bi bi-code-slash"></i>
+                  <span>Development</span>
+                </div>
+                <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="500">
+                  <i class="bi bi-lightning"></i>
+                  <span>Creative Ideas</span>
+                </div>
+              </div>
+              <img src="assets/img/profile/profile.jpg" alt="Portfolio Hero" class="img-fluid hero-main-image">
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>About</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="200">
+            <div class="profile-image-wrapper">
+              <div class="profile-image">
+                <img src="assets/img/profile/profile.jpg" alt="Profile" class="img-fluid">
+              </div>
+              <div class="signature-section">
+                <p class="quote">Turning complex data into meaningful applications.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="intro">
+                <h2>Hi, I'm Mohammad - a Creative Developer</h2>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="skill-icon">
+                    <i class="bi bi-robot"></i>
+                  </div>
+                  <h4>AI Developer</h4>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                  <div class="skill-icon">
+                    <i class="bi bi-code-slash"></i>
+                  </div>
+                  <h4>Backend Dev</h4>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                  <div class="skill-icon">
+                    <i class="bi bi-search"></i>
+                  </div>
+                  <h4>Researcher</h4>
+                </div>
+              </div>
+
+              <div class="journey-timeline" data-aos="fade-up" data-aos-delay="300">
+                <div class="timeline-item">
+                  <div class="year">2023</div>
+                  <div class="description">Bachelor in Computer Engeneering from Shahid Chamran University of
+                    Ahvaz, Iran</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="year">2025</div>
+                  <div class="description">Master in AI & Robotics from Shahid Chamran University of
+                    Ahvaz, Iran</div>
+                </div>
+                <!-- <div class="timeline-item">
+                  <div class="year">2023</div>
+                  <div class="description">Launched freelance career specializing in creative web solutions</div>
+                </div> -->
+              </div>
+
+              <!-- <div class="cta-section" data-aos="fade-up" data-aos-delay="400">
+                <div class="fun-fact">
+                  <span class="emoji">☕</span>
+                  <span class="text">Coffee-fueled designer based in Portland</span>
+                </div> -->
+              <!-- <div class="action-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#" class="btn btn-outline">Download Resume</a>
+              </div> -->
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="skills-grid">
+              <div class="row g-4">
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="200">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-robot"></i>
+                      <h3>AI Development</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Pytorch</span>
+                          <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Scikit-learn</span>
+                          <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">ML &amp; Deep Learning</span>
+                          <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End AI Card -->
+                </div>
+
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="300">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-code-slash"></i>
+                      <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Django</span>
+                          <span class="skill-percentage">78%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Rest API</span>
+                          <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Python</span>
+                          <span class="skill-percentage">72%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Backend Card -->
+                </div>
+
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="400">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-palette"></i>
+                      <h3>Design &amp; Tools</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Latex</span>
+                          <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Photoshop</span>
+                          <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Illustrator</span>
+                          <span class="skill-percentage">68%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Design Card -->
+                </div>
+
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="500">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-cloud"></i>
+                      <h3>Cloud &amp; DevOps</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Linux</span>
+                          <span class="skill-percentage">76%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Docker</span>
+                          <span class="skill-percentage">73%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="73" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Git</span>
+                          <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End DevOps Card -->
+                </div>
+              </div>
+            </div><!-- End Skills Grid -->
+          </div>
+
+          <div class="col-lg-4">
+            <div class="skills-summary" data-aos="fade-left" data-aos-delay="200">
+              <h3>Professional Expertise</h3>
+              <p>I specialize in computer vision and 3D data processing, with a focus on developing innovative solutions
+                for complex problems. I also have expertise in web development using Django, creating practical and
+                educational applications that connect research with real-world use.</p>
+
+              <div class="summary-stats">
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="stat-circle">
+                    <i class="bi bi-trophy"></i>
+                  </div>
+                  <div class="stat-info">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Years Experience</span>
+                  </div>
+                </div>
+
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="stat-circle">
+                    <i class="bi bi-diagram-3"></i>
+                  </div>
+                  <div class="stat-info">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Projects Completed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-badges" data-aos="fade-up" data-aos-delay="600">
+                <h4>Certifications</h4>
+                <div class="badge-list">
+                  <div class="skill-badge">Python Certified</div>
+                  <div class="skill-badge">Django Expert</div>
+                  <div class="skill-badge">AI Developer</div>
+                  <div class="skill-badge">ML &amp; DL Model Design</div>
+                </div>
+              </div>
+            </div><!-- End Skills Summary -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Resume</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="experience-section">
+              <div class="section-header">
+                <h2><i class="bi bi-briefcase"></i> Professional Journey</h2>
+
+              </div>
+
+              <div class="experience-cards">
+                <div class="experience-card" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="card-header">
+                    <div class="role-info">
+                      <h3>Teacher Assistant</h3>
+                      <h4>Shahid Chamran University of Ahvaz</h4>
+                    </div>
+                    <span class="duration">Sep 2020 - Aug 2025</span>
+                  </div>
+                  <div class="card-body">
+                    <ul class="achievements">
+                      <li>Introduction to Computing Systems and Programming (C++) (3x)</li>
+                      <li>Discrete Mathematics (3x)</li>
+                      <li>Internet Engineering (3x)</li>
+                      <li>Machine Learning [Master]</li>
+                      <li>Pattern Recognition [Master]</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experience-card" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="card-header">
+                    <div class="role-info">
+                      <h3>AI Developer</h3>
+                      <h4>Nopa Rayan Teb</h4>
+                    </div>
+                    <span class="duration">Jul 2023 - Dec 2024</span>
+                  </div>
+                  <div class="card-body">
+                    <p>Working on Medical Image Processing and Aggregate and Cleaning Dataset.</p>
+                  </div>
+                </div>
+
+                <div class="experience-card" data-aos="zoom-in" data-aos-delay="500">
+                  <div class="card-header">
+                    <div class="role-info">
+                      <h3>Summer Intern</h3>
+                      <h4>Panak IoT Solutions</h4>
+                    </div>
+                    <span class="duration">Jul 2022 - Oct 2022</span>
+                  </div>
+                  <div class="card-body">
+                    <p>Making a Website with Django and Django Rest for managing their system in Advertising System.</p>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="education-section">
+              <div class="section-header">
+                <h2><i class="bi bi-mortarboard"></i> Academic Excellence</h2>
+              </div>
+
+              <div class="education-timeline">
+                <div class="timeline-track"></div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="300">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>Master of Artificial Intelligence</h3>
+                      <span class="year">2023 - 2025</span>
+                    </div>
+                    <h4 class="institution">Shahid Chamran University of Ahvaz</h4>
+                    <p>Advisor: Dr. Marjan Naderan &amp; Dr. Morteza Jaderyan, Grade: 16.31 / 20</p>
+                  </div>
+                </div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="400">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>Bachelor of Computer Engeneering</h3>
+                      <span class="year">2019 - 2023</span>
+                    </div>
+                    <h4 class="institution">Shahid Chamran University of Ahvaz</h4>
+                    <p>Advisor: Dr. Marjan Naderan, Grade: 16.64 / 20</p>
+                  </div>
+                </div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="500">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>High School Diploma</h3>
+                      <span class="year">2016 - 2019</span>
+                    </div>
+                    <h4 class="institution">National Organization for Development of Exceptional Talents (Sampad)</h4>
+                    <p>Sheikh Morteza Ansari of Dezful, Mathematics and Physics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Research Interests &amp; Services</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-journal-code"></i>
+              </div>
+              <h3>Machine &amp; Deep Learning</h3>
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h3>Web Development</h3>
+
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-camera2"></i>
+              </div>
+              <h3>Image Processing</h3>
+
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <h3>AI Integration</h3>
+
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-cloud-arrow-up"></i>
+              </div>
+              <h3>Cloud Services</h3>
+
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 6 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-gear"></i>
+              </div>
+              <h3>Process Automation</h3>
+
+
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
     <div class="container">
-      <p>
-        صفحه در دست
-        <br />
-        توسعه است...
-      </p>
-      <div class="shape shape4"></div>
-      <div class="shape shape2"></div>
-      <div class="shape shape3"></div>
-      <div class="shape shape1"></div>
-      <span id="year">MYP79 &copy </span>
-      <script>
-        document.getElementById("year").innerHTML += new Date().getFullYear();
-      </script>
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/MoYousefipour"><i class="bi bi-github"></i></a>
+        <a href="https://t.me/MoYousefiPour"><i class="bi bi-telegram"></i></a>
+        <a href="https://scholar.google.com/citations?user=hFPzHHEAAAAJ&hl=en"><i class="bi bi-google"></i></a>
+        <a href="https://www.linkedin.com/in/mohammad-yousefipour/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
-  </body>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
